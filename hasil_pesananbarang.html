@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hasil Form Pembelian Barang</title>
+</head>
+<body>
+    <fieldset><p align="center"><strong>A Web Page</strong><br> 
+    <input type="text"
+    value="http://hasil_pembelianbarang.com" size="35"></p></fieldset>
+    <fieldset><p align="center"><input type="text" value="            Home                |              Register                |            Policy             |              About      "
+    size="80"> </p></fieldset>
+    <!-- Konten Hasil Pemesanan -->
+    <form action="pesananbarang.html" method="get">
+        <table cellpadding="5">
+            <tr>
+                <!-- Kolom kiri: kotak foto -->
+                <td valign="top">
+                    <img src="" alt="" width="120" height="120" border="2">
+                </td>
+
+                <!-- Kolom kanan: data pesanan -->
+                <td>
+                    <table cellpadding="5">
+                        <tr>
+                            <td colspan="2">Nama Barang :...........</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Informasi Barang: ............</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Jumlah total:Rp.......</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Pay to : .....</td>
+                        </tr>
+                        <tr>
+                            <td>Payment Type :</td>
+                            <td><input type="text" name="payment_type" value="Transfer Bank" size="12"></td>
+                        </tr>
+                        <tr>
+                            <td>Account Holder :</td>
+                            <td><input type="text" name="account_holder" value="Name Here" size="12"></td>
+                        </tr>
+                        <tr>
+                            <td>Account No :</td>
+                            <td><input type="text" name="account_no" value="123-" size="15"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <input type="checkbox" name="kirim_hp" value="ya" checked> Send to Mobile Phone
+                                <br>
+                                <input type="checkbox" name="kirim_email" value="ya" checked> Send to Email
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Send to Mobile Phone :</td>
+                            <td><input type="text" name="send_phone" value="+62" size="25"></td>
+                        </tr>
+                        <tr>
+                            <td>Send to Email :</td>
+                            <td><input type="text" name="send_email" value="@gmail.com" size="25"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><input type="submit" value="Pay using QuidLink"></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
